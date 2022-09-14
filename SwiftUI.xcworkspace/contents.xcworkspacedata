@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "AppDesignAndLayout">
+      <FileRef
+         location = "group:AppDesignAndLayout/ComposingComplexInterfaces/ComposingComplexInterfaces.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "DrawingAndAnimation">
       <FileRef
          location = "group:AnimatingAndTransitions/AnimatingAndTransitions.xcodeproj">
