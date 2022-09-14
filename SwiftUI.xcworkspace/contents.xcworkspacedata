@@ -5,6 +5,9 @@
       location = "container:"
       name = "DrawingAndAnimation">
       <FileRef
+         location = "group:AnimatingAndTransitions/AnimatingAndTransitions.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:DrawingPathsAndShapes/DrawingPathsAndShapes.xcodeproj">
       </FileRef>
    </Group>

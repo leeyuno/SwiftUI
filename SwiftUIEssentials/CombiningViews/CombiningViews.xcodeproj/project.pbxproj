@@ -33,27 +33,6 @@
 			remoteGlobalIDString = 4F6A94A128C9C8FB00017AC4;
 			remoteInfo = CombiningViews;
 		};
-		4FEBE5C828D0709D0065795D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4FEBE5C228D0709D0065795D /* HandlingUserInput.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F6A951E28C9C9D800017AC4;
-			remoteInfo = HandlingUserInput;
-		};
-		4FEBE5CA28D0709D0065795D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4FEBE5C228D0709D0065795D /* HandlingUserInput.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F6A952E28C9C9E100017AC4;
-			remoteInfo = HandlingUserInputTests;
-		};
-		4FEBE5CC28D0709D0065795D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4FEBE5C228D0709D0065795D /* HandlingUserInput.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F6A953828C9C9E100017AC4;
-			remoteInfo = HandlingUserInputUITests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +47,6 @@
 		4F6A94CF28C9C91100017AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F6A94D328C9C93D00017AC4 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4F6A94D528C9C95E00017AC4 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		4FEBE5C228D0709D0065795D /* HandlingUserInput.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HandlingUserInput.xcodeproj; path = ../HandlingUserInput/HandlingUserInput.xcodeproj; sourceTree = "<group>"; };
 		4FEBE64328D076C10065795D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +78,6 @@
 		4F6A949928C9C8FB00017AC4 = {
 			isa = PBXGroup;
 			children = (
-				4FEBE5C228D0709D0065795D /* HandlingUserInput.xcodeproj */,
 				4F6A94A428C9C8FB00017AC4 /* CombiningViews */,
 				4F6A94B528C9C90200017AC4 /* CombiningViewsTests */,
 				4F6A94BF28C9C90300017AC4 /* CombiningViewsUITests */,
@@ -154,16 +131,6 @@
 				4F6A94C228C9C90300017AC4 /* CombiningViewsUITestsLaunchTests.swift */,
 			);
 			path = CombiningViewsUITests;
-			sourceTree = "<group>";
-		};
-		4FEBE5C328D0709D0065795D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4FEBE5C928D0709D0065795D /* HandlingUserInput.app */,
-				4FEBE5CB28D0709D0065795D /* HandlingUserInputTests.xctest */,
-				4FEBE5CD28D0709D0065795D /* HandlingUserInputUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,12 +223,6 @@
 			mainGroup = 4F6A949928C9C8FB00017AC4;
 			productRefGroup = 4F6A94A328C9C8FB00017AC4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4FEBE5C328D0709D0065795D /* Products */;
-					ProjectRef = 4FEBE5C228D0709D0065795D /* HandlingUserInput.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4F6A94A128C9C8FB00017AC4 /* CombiningViews */,
@@ -270,30 +231,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4FEBE5C928D0709D0065795D /* HandlingUserInput.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = HandlingUserInput.app;
-			remoteRef = 4FEBE5C828D0709D0065795D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4FEBE5CB28D0709D0065795D /* HandlingUserInputTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = HandlingUserInputTests.xctest;
-			remoteRef = 4FEBE5CA28D0709D0065795D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4FEBE5CD28D0709D0065795D /* HandlingUserInputUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = HandlingUserInputUITests.xctest;
-			remoteRef = 4FEBE5CC28D0709D0065795D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4F6A94A028C9C8FB00017AC4 /* Resources */ = {
