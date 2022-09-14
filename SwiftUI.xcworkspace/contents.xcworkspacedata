@@ -5,6 +5,9 @@
       location = "container:"
       name = "AppDesignAndLayout">
       <FileRef
+         location = "group:AppDesignAndLayout/WorkingWithUIControls/WorkingWithUIControls.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:AppDesignAndLayout/ComposingComplexInterfaces/ComposingComplexInterfaces.xcodeproj">
       </FileRef>
    </Group>
