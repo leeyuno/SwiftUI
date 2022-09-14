@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "FrameworkIntegration">
+      <FileRef
+         location = "group:FrameworkIntegration/InterfacingWithUIKit/InterfacingWithUIKit.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "AppDesignAndLayout">
       <FileRef
          location = "group:AppDesignAndLayout/WorkingWithUIControls/WorkingWithUIControls.xcodeproj">
